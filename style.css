@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color: rgb(246, 245, 244);
+}
+
+
+.title{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    color:  rgb(40, 129, 22);
+}
+
+.instruction{
+    margin: 20px auto;
+    text-align: center;
+    font-size: 22px;
+    line-height: 2
+}
+
+.window_enter{
+    display: block;
+    width: 770px;
+    height: 200px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: rgb(232, 254, 254);
+    margin: 20px auto;
+}
+
+.keyboard{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: rgb(200, 206, 211);
+    width: 770px;
+    border-radius: 7px;
+}
+
+
+.keys {
+    text-align: center;
+}
+
+.key{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+    border-radius: 3px;
+    background-color: #444444;;
+    user-select: none;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    border: none;
+}
+
+.key:hover{
+    background-color: rgb(122, 158, 146);
+}
+
+.key:active{
+    border-radius: 20px;
+    background-color: rgb(16, 239, 68);
+    
+}
+
+.dark{
+    background-color: #222222;
+    width: 93px;
+}
+
+.dark-small{
+    background-color: #222222;
+    width: 40px;
+}
+
+.backspace{
+    width: 100px;
+    padding: 0 5px;
+}
+
+.space{
+    width: 340px;
+}
+
+.active{
+    background-color: rgb(16, 239, 68);
+    border-radius: 220px;
+}
+
+.big-key{
+    width: 100px;
+}
+
+span{
+    color: aliceblue;
+}
